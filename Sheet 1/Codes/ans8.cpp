@@ -14,7 +14,7 @@ int main()
                 cout<<i+1;
                 if(i+1==1)
                     j++;
-                for(int k=0;k<i;k++)
+                for(int k=0;k<i+i;k++)
                 cout<<" ";
             }
         
@@ -34,7 +34,7 @@ int main()
                 if(i==1)
                     j++;
                 
-                for(int k=i-1;k>0;k--)
+                for(int k=i+i-2;k>0;k--)
                 cout<<" ";
             }
 
